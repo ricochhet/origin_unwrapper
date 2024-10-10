@@ -1,0 +1,148 @@
+linters-settings:
+    lll:
+        line-length: 140
+    funlen:
+        lines: 100
+        statements: 50
+    mnd:
+        ignored-numbers:
+            - '0o600'
+            - '0o700'
+            - '0o644'
+    gocyclo:
+        min-complexity: 15
+    goimports:
+        local-prefixes: github.com/golang-templates/seed
+    govet:
+        shadow: true
+    misspell:
+        locale: US
+        ignore-words:
+            - spectre
+    nolintlint:
+        allow-unused: false # report any unused nolint directives
+        require-explanation: true # require an explanation for nolint directives
+        require-specific: false # don't require nolint directives to be specific about which linter is being skipped
+    revive:
+        confidence: 0
+    depguard:
+        rules:
+            prevent_unmaintained_packages:
+                allow:
+                    - $gostd
+                    - github.com/ricochhet/origin_unwrapper
+                    - github.com/ricochhet/readwrite
+                    - github.com/ricochhet/simplelog
+                    - github.com/ricochhet/simpleutil
+                    - github.com/ricochhet/simplecrypto
+                    - github.com/ricochhet/murmurhash3
+issues:
+    exclude-dirs:
+        - thirdparty/
+
+linters:
+    enable:
+        - asasalint
+        - asciicheck
+        - bidichk
+        - bodyclose
+        - canonicalheader
+        - containedctx
+        - contextcheck
+        - copyloopvar
+        - cyclop
+        - decorder
+        - depguard
+        - dogsled
+        - dupl
+        - dupword
+        - durationcheck
+        - err113
+        - errcheck
+        - errchkjson
+        - errname
+        - errorlint
+        - exhaustive
+        - exhaustruct
+        # - exportloopref // deprecated
+        - fatcontext
+        - forcetypeassert
+        - funlen
+        - gci
+        - ginkgolinter
+        - gocheckcompilerdirectives
+        - gochecknoglobals
+        - gochecknoinits
+        - gochecksumtype
+        - gocognit
+        - goconst
+        - gocritic
+        - gocyclo
+        - godot
+        - godox
+        - gofmt
+        - gofumpt
+        - goheader
+        - goimports
+        - gomoddirectives
+        - gomodguard
+        - goprintffuncname
+        - gosec
+        - gosimple
+        - gosmopolitan
+        - govet
+        - grouper
+        - importas
+        - inamedparam
+        - ineffassign
+        - interfacebloat
+        - intrange
+        - ireturn
+        - lll
+        - loggercheck
+        - maintidx
+        - makezero
+        - mirror
+        - misspell
+        - mnd
+        - musttag
+        - nakedret
+        - nestif
+        - nilerr
+        - nilnil
+        - noctx
+        - nolintlint
+        - nonamedreturns
+        - nosprintfhostport
+        - paralleltest
+        - perfsprint
+        - prealloc
+        - predeclared
+        - promlinter
+        - protogetter
+        - reassign
+        - revive
+        - rowserrcheck
+        - sloglint
+        - spancheck
+        - sqlclosecheck
+        - staticcheck
+        - stylecheck
+        - tagalign
+        - tagliatelle
+        - tenv
+        - testableexamples
+        - testifylint
+        - testpackage
+        - thelper
+        - tparallel
+        - typecheck
+        - unconvert
+        - unparam
+        - unused
+        - usestdlibvars
+        - varnamelen
+        - wastedassign
+        - whitespace
+        - wsl
+        - zerologlint
