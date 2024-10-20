@@ -6,5 +6,5 @@ github.com/ricochhet/simplecrypto v0.0.0-20241010180431-a469bec97958 h1:mjbt9p0J
 github.com/ricochhet/simplecrypto v0.0.0-20241010180431-a469bec97958/go.mod h1:ZYtAgQnG4X7TAVTlW8wmZ4b0QlgbwhV6u5hI28E9M2U=
 github.com/ricochhet/simplelog v0.0.0-20241010180121-b23ed786893b h1:UTIeqahxFx4Qwz5NlvxF79XWGJVywA8xnKpZL7FFQbg=
 github.com/ricochhet/simplelog v0.0.0-20241010180121-b23ed786893b/go.mod h1:iyZ9NbWbIuijPOFiaYyHTZwjxuH61tVrYG1tC9F927Y=
-github.com/ricochhet/simpleutil v0.0.0-20241010173835-e3f6faa784ae h1:vcA2JBhvvyXbmK/ysqSEObVRJs9eWBD9WOR8YZ2nu5U=
-github.com/ricochhet/simpleutil v0.0.0-20241010173835-e3f6faa784ae/go.mod h1:vxIdwqyHq0DS7PjrkX+TYnTo3lyK0sX2wGgnGD9tFm8=
+github.com/ricochhet/simpleutil v0.0.0-20241020191403-14db560d7650 h1:uoCRA8Xi1iyn+qslIEI2kqwzMnSfX6XTc1BR6mqcbwM=
+github.com/ricochhet/simpleutil v0.0.0-20241020191403-14db560d7650/go.mod h1:vxIdwqyHq0DS7PjrkX+TYnTo3lyK0sX2wGgnGD9tFm8=
